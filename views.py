@@ -6,3 +6,7 @@ def index(request):
 
 def login(request):
     return redirect('/index')
+
+
+def admin(request):
+    return redirrct('/login')
